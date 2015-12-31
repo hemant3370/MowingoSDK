@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13411D94F621D0565E1AB7B0120EF345 /* MowingoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */; };
+		435822B0FE83763BE765B2E04392F42C /* Pods-MowingoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63381492DB8259AE5BDA95F05340ED56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		73D34AD555086E83677B59537850CD5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		977C1E718738E048DEC5D12E09C4779C /* Pods-MowingoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */; };
+		9E56476CB3602C58788CCD24D388438D /* MowingoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */; };
+		AE93D4C5977757CD16D23B377C3C8805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B09E5A9E5CDBB9928A767A7DBA91EA63 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE2A18E81A2DE6BE7AFE0B73CBA03EF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3AF607A02951F638EF26EADC5E1DBB /* ReplaceMe.m */; };
+		BDB4E41173F184BB2F73EC05E0C31530 /* MowingoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56EFAEF9916E5145ED300F96186A662 /* Pods-MowingoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341EE34576A788506A7C2B9A6D7DBF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33F0BBF9265BAE00E40BD8BEC7BD3D0;
+			remoteInfo = "MowingoSDK-MowingoSDK";
+		};
+		81FF40AF259B62E3224FB22AA001E3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11BF7D5ACC06D577C050F3F6F70419D;
+			remoteInfo = MowingoSDK;
+		};
+		B34B053A9C3A571435AF3968E02591BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11BF7D5ACC06D577C050F3F6F70419D;
+			remoteInfo = MowingoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A35403A5ABB2468AFB36D4114F7EEB /* Pods-MowingoSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MowingoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MowingoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MowingoSDK.xcconfig; sourceTree = "<group>"; };
+		1E827951CAFD399719639463EDBDB5FB /* Pods-MowingoSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		448BE64D7EC2F7E29DA8EB07F9DBD3D2 /* Pods-MowingoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MowingoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F568446BD1164E83C910A4671C2DA92 /* Pods-MowingoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MowingoSDK-dummy.m"; sourceTree = "<group>"; };
+		5DD1F8E33811ADC127A47AE65F6F0BFB /* Pods-MowingoSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		72D27699826A6901A1A6D130A6F0479A /* Pods-MowingoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MowingoSDK_Example.modulemap"; sourceTree = "<group>"; };
+		7BBF681239811B2E2E4FFE39B824A8AB /* Pods-MowingoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2F37A1D6DD4F1A1037C0921612606E /* Pods-MowingoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MowingoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E3AF607A02951F638EF26EADC5E1DBB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9AD8111963B9071890B4D2D8A2CBC8F4 /* Pods-MowingoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MowingoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MowingoSDK-umbrella.h"; sourceTree = "<group>"; };
+		A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MowingoSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		AF5E628EAEF8D2302A18F62E1353E90F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B238C9A79BD8AA5E4932C6460247E1CD /* Pods-MowingoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MowingoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1A1EE8FA9BCFB0180984EEAB7AE6F39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC23F31B1A1D5C5FA2DFA0AB1ED5E49D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MowingoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D65128DDB73DFB83E690198D7EC067D8 /* Pods-MowingoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MowingoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MowingoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34FD68FD706C94C75BD65E211C470FB /* MowingoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MowingoSDK.modulemap; sourceTree = "<group>"; };
+		ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowingoSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E6F416AF6843DFDD597F8C3EFA9800 /* MowingoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MowingoSDK-prefix.pch"; sourceTree = "<group>"; };
+		F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F96CA7AD0D281DDF4C7D28E82F3BC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D34AD555086E83677B59537850CD5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46298FDB98E5D3BAE2E6BF1D3B941AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E25CF1DFAB7ECA05C329BA4BE9CBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE93D4C5977757CD16D23B377C3C8805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0450D2568EF42654327F7E654E43824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63381492DB8259AE5BDA95F05340ED56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488E7A51FD3DB7A00197932DBC810830 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FAEA6E5CE98073E702F122F6D3116 /* Pods-MowingoSDK_Example */,
+				ACEFE1C2A7B08FE55ACC0F5BC7698EF3 /* Pods-MowingoSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5252EE10934512E84DCADC4793C89718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E3AF607A02951F638EF26EADC5E1DBB /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		72E77A0354A0ED8CC6FDC31B0955D9AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E628EAEF8D2302A18F62E1353E90F /* Info.plist */,
+				E34FD68FD706C94C75BD65E211C470FB /* MowingoSDK.modulemap */,
+				1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */,
+				57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */,
+				F1E6F416AF6843DFDD597F8C3EFA9800 /* MowingoSDK-prefix.pch */,
+				9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MowingoSDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				DEA6DB89C3D6AEB6766EE51AB2099018 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EAD5C65389E6C183B94A64EE7F065937 /* Products */,
+				488E7A51FD3DB7A00197932DBC810830 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1FAEA6E5CE98073E702F122F6D3116 /* Pods-MowingoSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC23F31B1A1D5C5FA2DFA0AB1ED5E49D /* Info.plist */,
+				72D27699826A6901A1A6D130A6F0479A /* Pods-MowingoSDK_Example.modulemap */,
+				8E2F37A1D6DD4F1A1037C0921612606E /* Pods-MowingoSDK_Example-acknowledgements.markdown */,
+				B238C9A79BD8AA5E4932C6460247E1CD /* Pods-MowingoSDK_Example-acknowledgements.plist */,
+				AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */,
+				4F568446BD1164E83C910A4671C2DA92 /* Pods-MowingoSDK_Example-frameworks.sh */,
+				1E827951CAFD399719639463EDBDB5FB /* Pods-MowingoSDK_Example-resources.sh */,
+				CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */,
+				D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */,
+				A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MowingoSDK_Example";
+			path = "Target Support Files/Pods-MowingoSDK_Example";
+			sourceTree = "<group>";
+		};
+		9358B0DEFCF1E248F723089DD36E0B5C /* MowingoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CCC4AB105F342416AD3094BFC797C356 /* Pod */,
+				72E77A0354A0ED8CC6FDC31B0955D9AE /* Support Files */,
+			);
+			name = MowingoSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACEFE1C2A7B08FE55ACC0F5BC7698EF3 /* Pods-MowingoSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1EE8FA9BCFB0180984EEAB7AE6F39 /* Info.plist */,
+				D65128DDB73DFB83E690198D7EC067D8 /* Pods-MowingoSDK_Tests.modulemap */,
+				9AD8111963B9071890B4D2D8A2CBC8F4 /* Pods-MowingoSDK_Tests-acknowledgements.markdown */,
+				448BE64D7EC2F7E29DA8EB07F9DBD3D2 /* Pods-MowingoSDK_Tests-acknowledgements.plist */,
+				16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */,
+				5DD1F8E33811ADC127A47AE65F6F0BFB /* Pods-MowingoSDK_Tests-frameworks.sh */,
+				01A35403A5ABB2468AFB36D4114F7EEB /* Pods-MowingoSDK_Tests-resources.sh */,
+				01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */,
+				7BBF681239811B2E2E4FFE39B824A8AB /* Pods-MowingoSDK_Tests.debug.xcconfig */,
+				D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-MowingoSDK_Tests";
+			path = "Target Support Files/Pods-MowingoSDK_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCC4AB105F342416AD3094BFC797C356 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5252EE10934512E84DCADC4793C89718 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DEA6DB89C3D6AEB6766EE51AB2099018 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9358B0DEFCF1E248F723089DD36E0B5C /* MowingoSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EAD5C65389E6C183B94A64EE7F065937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */,
+				DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */,
+				3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */,
+				F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A18BF9946452B68F6712F8F7959D79D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E5A9E5CDBB9928A767A7DBA91EA63 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ED58B6CE724BF76DB04F47CF3D64CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435822B0FE83763BE765B2E04392F42C /* Pods-MowingoSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F870BBE803598BBA3B0089E1E82BCCFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB4E41173F184BB2F73EC05E0C31530 /* MowingoSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B65A53C4FE2EDD979B1A7AC23E72E31 /* Pods-MowingoSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936BD285241BECDC60E70575B96FC318 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */;
+			buildPhases = (
+				CE000F9001FAAAF650C412206C3138A4 /* Sources */,
+				2F96CA7AD0D281DDF4C7D28E82F3BC8E /* Frameworks */,
+				F1ED58B6CE724BF76DB04F47CF3D64CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3928389A57D4D868271610235CFD2E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MowingoSDK_Example";
+			productName = "Pods-MowingoSDK_Example";
+			productReference = 3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C33F0BBF9265BAE00E40BD8BEC7BD3D0 /* MowingoSDK-MowingoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C5DDC20DC8F5C655862F318EC3DF284 /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */;
+			buildPhases = (
+				C4EEC263CE85EA34AD2EEB4B1FF5EF22 /* Sources */,
+				46298FDB98E5D3BAE2E6BF1D3B941AAA /* Frameworks */,
+				A652FA63C9E7D7E650B78B0B74DEC89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MowingoSDK-MowingoSDK";
+			productName = "MowingoSDK-MowingoSDK";
+			productReference = ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EA38A031F89D078BA50D6928C1DEEB4C /* Pods-MowingoSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DEF53E105D3D82BA9C0028A078A2F3 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */;
+			buildPhases = (
+				724176FCE72B3FBA57D0355BC5BF68DF /* Sources */,
+				B0450D2568EF42654327F7E654E43824 /* Frameworks */,
+				A18BF9946452B68F6712F8F7959D79D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FB4CDF8F1B33652E40440A8876141BD /* PBXTargetDependency */,
+			);
+			name = "Pods-MowingoSDK_Tests";
+			productName = "Pods-MowingoSDK_Tests";
+			productReference = F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F11BF7D5ACC06D577C050F3F6F70419D /* MowingoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19344E42708838B150B18D3EAA256CAF /* Build configuration list for PBXNativeTarget "MowingoSDK" */;
+			buildPhases = (
+				F4592E34ABA45CAE674CA340878616C3 /* Sources */,
+				A7E25CF1DFAB7ECA05C329BA4BE9CBD1 /* Frameworks */,
+				B864E2DC594EA8E4BC36539613AF8902 /* Resources */,
+				F870BBE803598BBA3B0089E1E82BCCFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC961FFD87D1FC425A5987D7A51E8CAF /* PBXTargetDependency */,
+			);
+			name = MowingoSDK;
+			productName = MowingoSDK;
+			productReference = DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAD5C65389E6C183B94A64EE7F065937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11BF7D5ACC06D577C050F3F6F70419D /* MowingoSDK */,
+				C33F0BBF9265BAE00E40BD8BEC7BD3D0 /* MowingoSDK-MowingoSDK */,
+				1B65A53C4FE2EDD979B1A7AC23E72E31 /* Pods-MowingoSDK_Example */,
+				EA38A031F89D078BA50D6928C1DEEB4C /* Pods-MowingoSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A652FA63C9E7D7E650B78B0B74DEC89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B864E2DC594EA8E4BC36539613AF8902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13411D94F621D0565E1AB7B0120EF345 /* MowingoSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		724176FCE72B3FBA57D0355BC5BF68DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977C1E718738E048DEC5D12E09C4779C /* Pods-MowingoSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEC263CE85EA34AD2EEB4B1FF5EF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE000F9001FAAAF650C412206C3138A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EFAEF9916E5145ED300F96186A662 /* Pods-MowingoSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4592E34ABA45CAE674CA340878616C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E56476CB3602C58788CCD24D388438D /* MowingoSDK-dummy.m in Sources */,
+				BBE2A18E81A2DE6BE7AFE0B73CBA03EF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FB4CDF8F1B33652E40440A8876141BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MowingoSDK;
+			target = F11BF7D5ACC06D577C050F3F6F70419D /* MowingoSDK */;
+			targetProxy = 81FF40AF259B62E3224FB22AA001E3C9 /* PBXContainerItemProxy */;
+		};
+		DC961FFD87D1FC425A5987D7A51E8CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MowingoSDK-MowingoSDK";
+			target = C33F0BBF9265BAE00E40BD8BEC7BD3D0 /* MowingoSDK-MowingoSDK */;
+			targetProxy = 341EE34576A788506A7C2B9A6D7DBF96 /* PBXContainerItemProxy */;
+		};
+		F3928389A57D4D868271610235CFD2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MowingoSDK;
+			target = F11BF7D5ACC06D577C050F3F6F70419D /* MowingoSDK */;
+			targetProxy = B34B053A9C3A571435AF3968E02591BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72A15D7197F9F92BB429E6D61BD91CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7750A4C7E6E2B81D661D07D40BDDCCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBF681239811B2E2E4FFE39B824A8AB /* Pods-MowingoSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Pods-MowingoSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C22BCF7690B574AC014D7B921F5930E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5861142056A51090B01FFCBF4E4C05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MowingoSDK/MowingoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MowingoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC4431E8FA5BEBE9FEDF6B41C0AC43A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Pods-MowingoSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEE5E17B1C62BE6AC60ED1348D550981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MowingoSDK/MowingoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MowingoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7F7FEDC466AA083239C342775D8F231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19344E42708838B150B18D3EAA256CAF /* Build configuration list for PBXNativeTarget "MowingoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5861142056A51090B01FFCBF4E4C05A /* Debug */,
+				BEE5E17B1C62BE6AC60ED1348D550981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DEF53E105D3D82BA9C0028A078A2F3 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7750A4C7E6E2B81D661D07D40BDDCCB1 /* Debug */,
+				BC4431E8FA5BEBE9FEDF6B41C0AC43A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C5DDC20DC8F5C655862F318EC3DF284 /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F7FEDC466AA083239C342775D8F231 /* Debug */,
+				72A15D7197F9F92BB429E6D61BD91CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936BD285241BECDC60E70575B96FC318 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */,
+				7C22BCF7690B574AC014D7B921F5930E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

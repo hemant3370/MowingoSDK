@@ -1,0 +1,25 @@
+{
+  "name": "MowingoSDK",
+  "version": "0.1.0",
+  "summary": "A short description of MowingoSDK.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MowingoSDK",
+  "license": "MIT",
+  "authors": {
+    "Hemant Singh": "hemant.singh@bellurbis.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MowingoSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MowingoSDK": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
