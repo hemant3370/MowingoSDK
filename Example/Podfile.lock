@@ -1,5 +1,5 @@
 PODS:
-  - MowingoSDK (0.1.0)
+  - MowingoSDK (0.1.1)
 
 DEPENDENCIES:
   - MowingoSDK (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MowingoSDK: 1d520c6efb2efd222a7678925330841a49c071ac
+  MowingoSDK: 18cfb877636ba1e5f38e29dca1d8b20d785057b7
 
 COCOAPODS: 0.39.0

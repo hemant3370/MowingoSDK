@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2E2D347B6AED551CBCD1E773'
+               BlueprintIdentifier = '2632CD20AEB6C7DAA167F249'
                BlueprintName = 'MowingoSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MowingoSDK.framework'>

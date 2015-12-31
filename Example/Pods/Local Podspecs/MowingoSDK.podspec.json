@@ -1,6 +1,6 @@
 {
   "name": "MowingoSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "SDK Pod for Mowingo",
   "description": "This CocoaPod provides the dependencies to use Mowingo SDK",
   "homepage": "https://github.com/hemant3370/MowingoSDK",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/hemant3370/MowingoSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

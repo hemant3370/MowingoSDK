@@ -1,6 +1,0 @@
-framework module MowingoSDK {
-  umbrella header "MowingoSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
