@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Private/Parsers/MWGPromotionDetailParser.h

@@ -7,102 +7,278 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18C2B1C775365D4FA8E06099E414AA71 /* Pods-MowingoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */; };
-		1EE43186CA1DE19347D5D32A036AF381 /* Pods-MowingoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */; };
-		5602F5FB3AB2C1BC7608A7DE954E2A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7B097AFA616CD796EF5F3882926E4FED /* Pods-MowingoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C989EBA85C9FA26796D3123640C1012 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F72092EF89E1B1A586217231B8B50E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		031E77EDE7BBD097B5CFCC0452512312 /* MWGUser.h in Headers */ = {isa = PBXBuildFile; fileRef = F481C4E319D6356BA8601C62149D162B /* MWGUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A231FF5AE2769E66A228D0EF8D9989 /* MWGBeaconsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA32A652F70D63FFA3FDF31505AE6F6 /* MWGBeaconsParser.m */; };
+		0417EBC9D29026DD90CCD2C5968126B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		079A8CDD1BB320D5B35664A471470A23 /* MowingoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BED6F18E49099EDC87982E182BE43F1 /* MWGPromotionDetailParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489E888ED650CF9EDDB7B0654578DBE /* MWGPromotionDetailParser.m */; };
+		0DABD64562F533EA6E4FD862465BF04F /* MWGLocationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2962785913E47706AA74CFF53FCACA6C /* MWGLocationParser.m */; };
+		105CA56DA64DEEFE7EEF38BB80A169EC /* MWGPromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4436BE5CFE24DC481F0EC3C8C6DB68 /* MWGPromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1138B78346C0FC0C11BA327F42FCCBB9 /* MWGGeofence.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEBEB52F053F111667D7D2CD44B25C7 /* MWGGeofence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17370CA7BD3E2C30C7894DE3614FD5AA /* MWGBeaconCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B5F16A66E6E624D99EDCC09C63A37B /* MWGBeaconCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189EBA094DD29F40B1FC2667A430BF37 /* MWGPromotionListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E78F423D80537C00DFFCA9C39F2CBA /* MWGPromotionListParser.m */; };
+		1DE330A6B6A4856504C43F0B8D4C1B49 /* MWGSDKManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F103C6A19663182FBDBEAC0EFC7EE9 /* MWGSDKManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F76FA13DB60734FB5A7D319624535F4 /* MWGGetUserdataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F58AAB931FD1B0319756C34950C648EB /* MWGGetUserdataParser.m */; };
+		21C3543DD8F372497EF0088DFC8B1690 /* MWGUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEA90BCA231C54CF0B4988A3D4058E /* MWGUserData.m */; };
+		2727AA995F01FEF374203C44B07152A4 /* MWGBeaconsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDE4B7EA8B1826F233F4DBFB46126DE /* MWGBeaconsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32192EA6BABDDBE9403605604F840E7B /* MWGUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC916124AB38A695CE9F998153911B3 /* MWGUrlConnection.m */; };
+		322BC3151776BBB6541780668A87B0D6 /* MWGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D0997563F77916DD4159CCA98E27B7 /* MWGLog.m */; };
+		339724076DF2F7C14A49E8930C6537DD /* MWGUserParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8055E4B746C4E72DF161C616B8B677E3 /* MWGUserParser.m */; };
+		3AE6146ED0B894FB8D87DC0AA50E0662 /* MWGBeaconRegionCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA2388A62454BE6ED723BEE2B49F7A /* MWGBeaconRegionCore.m */; };
+		3DA3F081E34FBC3D04EDBF337B293678 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB14C49D5A88D12CCB6F765AA1F1FDC /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40432001031C361B2AE96B583F7598D3 /* MWGError.m in Sources */ = {isa = PBXBuildFile; fileRef = D2534FBEA613E279341111F559FC19E9 /* MWGError.m */; };
+		435822B0FE83763BE765B2E04392F42C /* Pods-MowingoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7E0766669DF7364DF90276C91911B4 /* MWGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E419F710152FDA0AC9217DB7043D578F /* MWGUser.m */; };
+		4DB1FCCE2C6BA0A98A9CDD07D5FC216F /* MWGXMLDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1194A660AF3085BBBAF36BD13FC7DB /* MWGXMLDataCache.m */; };
+		4E2DA9FD5D55E8CF2C868C4910902B05 /* MWGSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B609C6D8D8C1BC3519901AFD323E95 /* MWGSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54393246E6AED6F9025CE6819F2AC9D4 /* MWGXMLCacheLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6128ADD137C358C3465AF6946CA9A /* MWGXMLCacheLoader.m */; };
+		58C64D637D526B453F6FCB6CB94431E6 /* MWGParserEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A26F46CB22EF3955C8632ECDDD127E04 /* MWGParserEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E14A7D6540FB31DE1E412D448132C8 /* MWGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2293770E8EC0E65BADE2782A04EB15 /* MWGConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63381492DB8259AE5BDA95F05340ED56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6529BB8B4A4DA750CF85ADCAA98DDD95 /* MWGLocationServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 272925BD69BED49573871ACAD9F488DC /* MWGLocationServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6722E7E8668B14719E49A477A30B8F30 /* MWGStoreParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CBD08178293A232C5118686AB4CC3 /* MWGStoreParser.m */; };
+		6C20CEF2E4BE15DEFCCA69DBEAEB7431 /* MWGAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B4B933AD483BE675D1FF920317B8EC /* MWGAPI.m */; };
+		6D15E4E76DD770E8558187DB510067D6 /* MWGGeofenceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F38B85C156C0B023CC8FBDAC586C065 /* MWGGeofenceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728492BF7FECC3FED5FAFEE6B8AE0F1B /* MWGGeofenceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86280B82FCFC430BBF5F22ACF4399EBC /* MWGGeofenceParser.m */; };
+		73D34AD555086E83677B59537850CD5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		75202361926D260E2FED37FB11736CEB /* MWGUserData.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD7C85BBF24C8C2F2948B2057160466 /* MWGUserData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77B4B68C72C516B90EAA2922D7907A1B /* MWGLocationServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB293239C1E128F2C75C186222A6EF /* MWGLocationServiceManager.m */; };
+		78971FABF669BF2B431FC3FC85056497 /* MWGBeaconRegionCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4763A3B81E896384312D67E5B1FA6FC4 /* MWGBeaconRegionCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2BF1B194F5D18681A757F88E8FC0DA /* MWGSDKMangerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB397D89DA42AA9110030DF33271E07 /* MWGSDKMangerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7FCA39BE18E43339A1C162882BEE50 /* MWGBeaconCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD21E09290EDC8106E29596D686E1E /* MWGBeaconCore.m */; };
+		80340D3CD507D209CA0107BDE2701F98 /* MWGXMLDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0438B46BEECC4F37412030E60EA5AC /* MWGXMLDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DC97AFA201B6B5B362FDE9DF4FF97E /* MWGLoginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D871483BE6CCE3D4B2ECAD22AA81DB90 /* MWGLoginParser.m */; };
+		81118EB3ECB1D76478F9F81E9AD09DA8 /* MWGLoginParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E3134346B47D84CFEEC320EEE78FACAD /* MWGLoginParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8296569CA665D745A8A845DD1178B9A2 /* MWGAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 081328624EC7AC70C6E38B9AE34073D2 /* MWGAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838810CD81FB27FFA06C56B20761353D /* MWGUserParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D74ED5668D615256A7CDBE632975FF /* MWGUserParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A6485656AD71C04888C352D356EC41 /* MWGLocationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C6569D859DA33CD10E44070BA520C8 /* MWGLocationParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DC1F02A2A60F5A49678D0B85B27353 /* MWGError.h in Headers */ = {isa = PBXBuildFile; fileRef = A8986327C9E143EF384E1900C988AE97 /* MWGError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878BDDE765BA4EF95109B571949378B7 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CA45BEF9F3A6F2FE2B497388E66CF55D /* NSString+HTML.m */; };
+		88BA7B270044950220FF93B07DD077F4 /* MWGBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACCD72B5398776CB2E9DCED50DD0AA /* MWGBeaconRegion.m */; };
+		88C0B750BD78C86C69A13DAB18255900 /* MWGParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4C091CF608632E72712D72F10B5BF2 /* MWGParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BD5EB1379B3A8F9C38649473B55BA47 /* MWGPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CA39270A4E1A22BC9F264A3D611FA /* MWGPromotion.m */; };
+		977C1E718738E048DEC5D12E09C4779C /* Pods-MowingoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */; };
+		A03C6C335BD38C996B6195A6DE1BC40F /* MWGStoreParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C32CFBD5896051886D23E462B4DC564 /* MWGStoreParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D2684F51001F36B2F4B705BED2E0A9 /* MWGGeofence.m in Sources */ = {isa = PBXBuildFile; fileRef = 970DE5057A1E3DEA44F75E808379CDF2 /* MWGGeofence.m */; };
+		A68D57190E4758E9C31BDB9227D6F660 /* MWGStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A6095257C36BF075FFAEEE24ABDC8D74 /* MWGStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B440E446210D2B985D6AE5934A964 /* MWGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A421042C63C64E6E2C76BC0F979052CF /* MWGLocation.m */; };
+		AEDDF6C328D273A4BF94A39AC18C87B3 /* MWGPromotionListParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0248F1B259FD547A12EBA4AFBA8CF3F4 /* MWGPromotionListParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF989DD46929B8462CF469AA39751144 /* MWGSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A1231A92E398881EA5E7B38DB6810 /* MWGSDKManager.m */; };
+		B09E5A9E5CDBB9928A767A7DBA91EA63 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1376FE044CA0C657846594F567804A4 /* MWGAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E728D3B36066D72C49A22CA4713208 /* MWGAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F5C32A0F0CF2B5BBA5EAB2367527D1 /* MWGGeofenceRegionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 995E371CBCDF23E2315820AE56D6331D /* MWGGeofenceRegionParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4FB6169B39750C0A1FD27662EE8C90 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = B732A909B3026EEF6AEE50F83A282C92 /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5E903CD318C91F0A181A90939C1C08 /* MWGParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC33E59B1E97330A9273DFB8D9F223 /* MWGParam.m */; };
+		BD8EB5BF0F4693F109EEFCCC87F150CE /* MWGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB25B6E296938932E356297922B6D99 /* MWGUtil.m */; };
+		C0CE7C85BC6394C41173C3A525DD9814 /* MWGGeofenceRegionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D931FBD461616A6E890DAF10BED02374 /* MWGGeofenceRegionParser.m */; };
+		C6123780BCD52D0074EDFB0680ADF78D /* MowingoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */; };
+		C858C4A096124598725339F3BE47EEE8 /* MWGSDKMangerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C40C0D5817675A76C6135832D1985 /* MWGSDKMangerCore.m */; };
+		CC2A474334E7A2047066ED9A48554F74 /* MWGGetUserdataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF337F2B8227B4D885708062565AF26B /* MWGGetUserdataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D236F8C313B91E860D3AF7C296807D2A /* MWGParserEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D5E1B344C8D5A5FF346FC7928DF1F /* MWGParserEngine.m */; };
+		D5D460E7F71A76059644428A13D5A713 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0622EA8048776E70290EAB91FC51A5B1 /* GTMNSString+HTML.m */; };
+		E8B0FEE19CCC61B4D189F1B06E99A958 /* MowingoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */; };
+		EB321042F7D195CD6FD45F7E1124BA7B /* MWGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3CF2C801AFCA0FF0D18773059ECDC9 /* MWGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FDBE24264F9706130380646EF301F0 /* MWGPromotionDetailParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C24BAD5751BBB5053F9D326919CADF8 /* MWGPromotionDetailParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2313A7E47DE970E35C0D5BF61B54E43 /* MWGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F69E28CAFA9CA3F9FD7E5BEA327D831E /* MWGUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D10227CD6C26E1723D2FEFA1060040 /* MWGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 457D921803661CF0692BB93729657F03 /* MWGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56EFAEF9916E5145ED300F96186A662 /* Pods-MowingoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */; };
+		F5AF593FB5B2252111A3D28CDD608791 /* MowingoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D6806D7A8BA2EB7D3C3095D6B9F99B /* MowingoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72EB3D089F37AE824621A48AF08F8B8 /* MWGBeaconRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 510512000EA01142B6D615142FF6E89D /* MWGBeaconRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7CBC06ECFCE72FBD034F4AECF5AABA /* MWGUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F1690D1E4A44776E2DDF6B61A765B2 /* MWGUrlConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCEBD5D6969CDEA83A73FD1E7E397410 /* MWGStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCEDA71416984CE8953C94EB24B7D79 /* MWGStore.m */; };
+		FE677EFF1054D74EBBEFFDE0DE5CB0CB /* MWGXMLCacheLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F00746DEF0EF39846A1B8AC72CC4426 /* MWGXMLCacheLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		271A644C79061885014AE05D698C4F6A /* PBXContainerItemProxy */ = {
+		16BDED569930A31CDD958119C60D9538 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D33C326CDCEC6183DBBBE134B4AFED9D;
+			remoteGlobalIDString = 241E6684FE6541527E84C326586B85EB;
 			remoteInfo = "MowingoSDK-MowingoSDK";
 		};
-		F41F866B234351C7945E7D285D0D4DAB /* PBXContainerItemProxy */ = {
+		81FF40AF259B62E3224FB22AA001E3C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D33C326CDCEC6183DBBBE134B4AFED9D;
-			remoteInfo = "MowingoSDK-MowingoSDK";
+			remoteGlobalIDString = 16F1DCCF4ADC781DB618853B36C29632;
+			remoteInfo = MowingoSDK;
+		};
+		B34B053A9C3A571435AF3968E02591BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F1DCCF4ADC781DB618853B36C29632;
+			remoteInfo = MowingoSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01A35403A5ABB2468AFB36D4114F7EEB /* Pods-MowingoSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		01AED7639B64319909A3BFFA4708DC97 /* Pods-MowingoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MowingoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		13627E7A4DD1C430DBB7B6A57F3C6981 /* Pods_MowingoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0248F1B259FD547A12EBA4AFBA8CF3F4 /* MWGPromotionListParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGPromotionListParser.h; sourceTree = "<group>"; };
+		05E78F423D80537C00DFFCA9C39F2CBA /* MWGPromotionListParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGPromotionListParser.m; sourceTree = "<group>"; };
+		0622EA8048776E70290EAB91FC51A5B1 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		068CA39270A4E1A22BC9F264A3D611FA /* MWGPromotion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGPromotion.m; sourceTree = "<group>"; };
+		06B4B933AD483BE675D1FF920317B8EC /* MWGAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGAPI.m; sourceTree = "<group>"; };
+		081328624EC7AC70C6E38B9AE34073D2 /* MWGAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGAttributes.h; sourceTree = "<group>"; };
+		0D4C091CF608632E72712D72F10B5BF2 /* MWGParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGParam.h; sourceTree = "<group>"; };
+		1489E888ED650CF9EDDB7B0654578DBE /* MWGPromotionDetailParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGPromotionDetailParser.m; sourceTree = "<group>"; };
 		16D0F2AEF1FBB2F41BB9DBABFA4FAA12 /* Pods-MowingoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MowingoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		19F103C6A19663182FBDBEAC0EFC7EE9 /* MWGSDKManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGSDKManagerDelegate.h; sourceTree = "<group>"; };
+		1C24BAD5751BBB5053F9D326919CADF8 /* MWGPromotionDetailParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGPromotionDetailParser.h; sourceTree = "<group>"; };
+		1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MowingoSDK.xcconfig; sourceTree = "<group>"; };
+		1D3CF2C801AFCA0FF0D18773059ECDC9 /* MWGLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGLog.h; sourceTree = "<group>"; };
+		1E0438B46BEECC4F37412030E60EA5AC /* MWGXMLDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGXMLDataCache.h; sourceTree = "<group>"; };
 		1E827951CAFD399719639463EDBDB5FB /* Pods-MowingoSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		217CE86E6096D840E25C51D1483AB176 /* Pods_MowingoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		272925BD69BED49573871ACAD9F488DC /* MWGLocationServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGLocationServiceManager.h; sourceTree = "<group>"; };
+		2962785913E47706AA74CFF53FCACA6C /* MWGLocationParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGLocationParser.m; sourceTree = "<group>"; };
+		2AA6128ADD137C358C3465AF6946CA9A /* MWGXMLCacheLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGXMLCacheLoader.m; sourceTree = "<group>"; };
+		2C32CFBD5896051886D23E462B4DC564 /* MWGStoreParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGStoreParser.h; sourceTree = "<group>"; };
+		3C1194A660AF3085BBBAF36BD13FC7DB /* MWGXMLDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGXMLDataCache.m; sourceTree = "<group>"; };
+		3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EEEA90BCA231C54CF0B4988A3D4058E /* MWGUserData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGUserData.m; sourceTree = "<group>"; };
+		3F00746DEF0EF39846A1B8AC72CC4426 /* MWGXMLCacheLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGXMLCacheLoader.h; sourceTree = "<group>"; };
 		448BE64D7EC2F7E29DA8EB07F9DBD3D2 /* Pods-MowingoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MowingoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44AD21E09290EDC8106E29596D686E1E /* MWGBeaconCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGBeaconCore.m; sourceTree = "<group>"; };
+		457D921803661CF0692BB93729657F03 /* MWGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGLocation.h; sourceTree = "<group>"; };
+		4763A3B81E896384312D67E5B1FA6FC4 /* MWGBeaconRegionCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGBeaconRegionCore.h; sourceTree = "<group>"; };
+		48B5F16A66E6E624D99EDCC09C63A37B /* MWGBeaconCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGBeaconCore.h; sourceTree = "<group>"; };
+		49ACCD72B5398776CB2E9DCED50DD0AA /* MWGBeaconRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGBeaconRegion.m; sourceTree = "<group>"; };
+		4AB397D89DA42AA9110030DF33271E07 /* MWGSDKMangerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGSDKMangerCore.h; sourceTree = "<group>"; };
+		4D2293770E8EC0E65BADE2782A04EB15 /* MWGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGConstants.h; sourceTree = "<group>"; };
+		4EDE4B7EA8B1826F233F4DBFB46126DE /* MWGBeaconsParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGBeaconsParser.h; sourceTree = "<group>"; };
 		4F568446BD1164E83C910A4671C2DA92 /* Pods-MowingoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		510512000EA01142B6D615142FF6E89D /* MWGBeaconRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGBeaconRegion.h; sourceTree = "<group>"; };
+		53DB293239C1E128F2C75C186222A6EF /* MWGLocationServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGLocationServiceManager.m; sourceTree = "<group>"; };
+		57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MowingoSDK-dummy.m"; sourceTree = "<group>"; };
 		5DD1F8E33811ADC127A47AE65F6F0BFB /* Pods-MowingoSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MowingoSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5DEBEB52F053F111667D7D2CD44B25C7 /* MWGGeofence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGGeofence.h; sourceTree = "<group>"; };
+		5FC916124AB38A695CE9F998153911B3 /* MWGUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGUrlConnection.m; sourceTree = "<group>"; };
+		6CB14C49D5A88D12CCB6F765AA1F1FDC /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		6EAC33E59B1E97330A9273DFB8D9F223 /* MWGParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGParam.m; sourceTree = "<group>"; };
 		72D27699826A6901A1A6D130A6F0479A /* Pods-MowingoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MowingoSDK_Example.modulemap"; sourceTree = "<group>"; };
+		79F1690D1E4A44776E2DDF6B61A765B2 /* MWGUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGUrlConnection.h; sourceTree = "<group>"; };
+		7B4C40C0D5817675A76C6135832D1985 /* MWGSDKMangerCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGSDKMangerCore.m; sourceTree = "<group>"; };
 		7BBF681239811B2E2E4FFE39B824A8AB /* Pods-MowingoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F38B85C156C0B023CC8FBDAC586C065 /* MWGGeofenceParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGGeofenceParser.h; sourceTree = "<group>"; };
+		8055E4B746C4E72DF161C616B8B677E3 /* MWGUserParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGUserParser.m; sourceTree = "<group>"; };
+		81D6806D7A8BA2EB7D3C3095D6B9F99B /* MowingoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MowingoSDK.h; sourceTree = "<group>"; };
+		86280B82FCFC430BBF5F22ACF4399EBC /* MWGGeofenceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGGeofenceParser.m; sourceTree = "<group>"; };
+		87C6569D859DA33CD10E44070BA520C8 /* MWGLocationParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGLocationParser.h; sourceTree = "<group>"; };
+		884CBD08178293A232C5118686AB4CC3 /* MWGStoreParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGStoreParser.m; sourceTree = "<group>"; };
+		8CB25B6E296938932E356297922B6D99 /* MWGUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGUtil.m; sourceTree = "<group>"; };
 		8E2F37A1D6DD4F1A1037C0921612606E /* Pods-MowingoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MowingoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92B609C6D8D8C1BC3519901AFD323E95 /* MWGSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGSDKManager.h; sourceTree = "<group>"; };
+		970DE5057A1E3DEA44F75E808379CDF2 /* MWGGeofence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGGeofence.m; sourceTree = "<group>"; };
+		98E728D3B36066D72C49A22CA4713208 /* MWGAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGAPI.h; sourceTree = "<group>"; };
+		995E371CBCDF23E2315820AE56D6331D /* MWGGeofenceRegionParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGGeofenceRegionParser.h; sourceTree = "<group>"; };
 		9AD8111963B9071890B4D2D8A2CBC8F4 /* Pods-MowingoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MowingoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BCA2388A62454BE6ED723BEE2B49F7A /* MWGBeaconRegionCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGBeaconRegionCore.m; sourceTree = "<group>"; };
+		9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MowingoSDK-umbrella.h"; sourceTree = "<group>"; };
+		A26F46CB22EF3955C8632ECDDD127E04 /* MWGParserEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGParserEngine.h; sourceTree = "<group>"; };
+		A421042C63C64E6E2C76BC0F979052CF /* MWGLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGLocation.m; sourceTree = "<group>"; };
+		A6095257C36BF075FFAEEE24ABDC8D74 /* MWGStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGStore.h; sourceTree = "<group>"; };
+		A8986327C9E143EF384E1900C988AE97 /* MWGError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGError.h; sourceTree = "<group>"; };
 		A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAB22C5BDE5D856BF47C502D741ED587 /* Pods-MowingoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MowingoSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		B0CF4D6E622E22816E2956FE129CABAF /* MowingoSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowingoSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD7C85BBF24C8C2F2948B2057160466 /* MWGUserData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGUserData.h; sourceTree = "<group>"; };
+		AF5E628EAEF8D2302A18F62E1353E90F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCEDA71416984CE8953C94EB24B7D79 /* MWGStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGStore.m; sourceTree = "<group>"; };
 		B238C9A79BD8AA5E4932C6460247E1CD /* Pods-MowingoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MowingoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B732A909B3026EEF6AEE50F83A282C92 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1A1EE8FA9BCFB0180984EEAB7AE6F39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63A1231A92E398881EA5E7B38DB6810 /* MWGSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGSDKManager.m; sourceTree = "<group>"; };
+		CA4436BE5CFE24DC481F0EC3C8C6DB68 /* MWGPromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGPromotion.h; sourceTree = "<group>"; };
+		CA45BEF9F3A6F2FE2B497388E66CF55D /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
 		CC23F31B1A1D5C5FA2DFA0AB1ED5E49D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC95C4D903D6257148DA0DFA9C03093C /* Pods-MowingoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MowingoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2534FBEA613E279341111F559FC19E9 /* MWGError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGError.m; sourceTree = "<group>"; };
+		D62D5E1B344C8D5A5FF346FC7928DF1F /* MWGParserEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGParserEngine.m; sourceTree = "<group>"; };
 		D65128DDB73DFB83E690198D7EC067D8 /* Pods-MowingoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MowingoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		D871483BE6CCE3D4B2ECAD22AA81DB90 /* MWGLoginParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGLoginParser.m; sourceTree = "<group>"; };
 		D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MowingoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D931FBD461616A6E890DAF10BED02374 /* MWGGeofenceRegionParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGGeofenceRegionParser.m; sourceTree = "<group>"; };
+		DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MowingoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D0997563F77916DD4159CCA98E27B7 /* MWGLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGLog.m; sourceTree = "<group>"; };
+		E3134346B47D84CFEEC320EEE78FACAD /* MWGLoginParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGLoginParser.h; sourceTree = "<group>"; };
+		E34FD68FD706C94C75BD65E211C470FB /* MowingoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MowingoSDK.modulemap; sourceTree = "<group>"; };
+		E419F710152FDA0AC9217DB7043D578F /* MWGUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGUser.m; sourceTree = "<group>"; };
+		EBA32A652F70D63FFA3FDF31505AE6F6 /* MWGBeaconsParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGBeaconsParser.m; sourceTree = "<group>"; };
+		ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowingoSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF337F2B8227B4D885708062565AF26B /* MWGGetUserdataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGGetUserdataParser.h; sourceTree = "<group>"; };
+		F1E6F416AF6843DFDD597F8C3EFA9800 /* MowingoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MowingoSDK-prefix.pch"; sourceTree = "<group>"; };
+		F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MowingoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D74ED5668D615256A7CDBE632975FF /* MWGUserParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGUserParser.h; sourceTree = "<group>"; };
+		F481C4E319D6356BA8601C62149D162B /* MWGUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGUser.h; sourceTree = "<group>"; };
+		F58AAB931FD1B0319756C34950C648EB /* MWGGetUserdataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MWGGetUserdataParser.m; sourceTree = "<group>"; };
+		F69E28CAFA9CA3F9FD7E5BEA327D831E /* MWGUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MWGUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0C202EC0BB28F6E6B96654C62F91D31 /* Frameworks */ = {
+		2F96CA7AD0D281DDF4C7D28E82F3BC8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5602F5FB3AB2C1BC7608A7DE954E2A1A /* Foundation.framework in Frameworks */,
+				73D34AD555086E83677B59537850CD5E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFBED767F2E020513CD64C452F7B17E4 /* Frameworks */ = {
+		7083E6FBC7A5BB2AF3207FA95664EBBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72092EF89E1B1A586217231B8B50E30 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1A70F14DCCFC601388929D70A6728E6 /* Frameworks */ = {
+		B0450D2568EF42654327F7E654E43824 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63381492DB8259AE5BDA95F05340ED56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC753E1FC13D4C1F538C237F9A48B57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417EBC9D29026DD90CCD2C5968126B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E9E2E8FAFC4DBDFBBE70AF127782B33 /* Products */ = {
+		134D1A30C6791C3248ECDF1CE0DFF55F /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				B0CF4D6E622E22816E2956FE129CABAF /* MowingoSDK.bundle */,
-				217CE86E6096D840E25C51D1483AB176 /* Pods_MowingoSDK_Example.framework */,
-				13627E7A4DD1C430DBB7B6A57F3C6981 /* Pods_MowingoSDK_Tests.framework */,
+				98E728D3B36066D72C49A22CA4713208 /* MWGAPI.h */,
+				06B4B933AD483BE675D1FF920317B8EC /* MWGAPI.m */,
 			);
-			name = Products;
+			path = Api;
 			sourceTree = "<group>";
 		};
-		3150E60459C5564788C74991CED5D84E /* Development Pods */ = {
+		1599C3C51CE9AF9DFD46075B6120A4C7 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				742D8BC3AD17161873C15B169A3FD0BA /* MowingoSDK */,
+				272925BD69BED49573871ACAD9F488DC /* MWGLocationServiceManager.h */,
+				53DB293239C1E128F2C75C186222A6EF /* MWGLocationServiceManager.m */,
+				4AB397D89DA42AA9110030DF33271E07 /* MWGSDKMangerCore.h */,
+				7B4C40C0D5817675A76C6135832D1985 /* MWGSDKMangerCore.m */,
 			);
-			name = "Development Pods";
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2772131382D3C88A1A324989FE059A38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC3E2B4832EC3450BE6D4947DE2BEC /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		488E7A51FD3DB7A00197932DBC810830 /* Targets Support Files */ = {
@@ -114,21 +290,95 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		742D8BC3AD17161873C15B169A3FD0BA /* MowingoSDK */ = {
+		4F5C9D6E27E0B22573970A7E819EA16B /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				081328624EC7AC70C6E38B9AE34073D2 /* MWGAttributes.h */,
+				92B609C6D8D8C1BC3519901AFD323E95 /* MWGSDKManager.h */,
+				C63A1231A92E398881EA5E7B38DB6810 /* MWGSDKManager.m */,
+				19F103C6A19663182FBDBEAC0EFC7EE9 /* MWGSDKManagerDelegate.h */,
+				CC2EA487F88216A248ED12D57AA8C39A /* Model */,
 			);
-			name = MowingoSDK;
-			path = ../..;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		588F8063403DBCE50629DEFDD2BC197E /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE4B7EA8B1826F233F4DBFB46126DE /* MWGBeaconsParser.h */,
+				EBA32A652F70D63FFA3FDF31505AE6F6 /* MWGBeaconsParser.m */,
+				7F38B85C156C0B023CC8FBDAC586C065 /* MWGGeofenceParser.h */,
+				86280B82FCFC430BBF5F22ACF4399EBC /* MWGGeofenceParser.m */,
+				995E371CBCDF23E2315820AE56D6331D /* MWGGeofenceRegionParser.h */,
+				D931FBD461616A6E890DAF10BED02374 /* MWGGeofenceRegionParser.m */,
+				EF337F2B8227B4D885708062565AF26B /* MWGGetUserdataParser.h */,
+				F58AAB931FD1B0319756C34950C648EB /* MWGGetUserdataParser.m */,
+				87C6569D859DA33CD10E44070BA520C8 /* MWGLocationParser.h */,
+				2962785913E47706AA74CFF53FCACA6C /* MWGLocationParser.m */,
+				E3134346B47D84CFEEC320EEE78FACAD /* MWGLoginParser.h */,
+				D871483BE6CCE3D4B2ECAD22AA81DB90 /* MWGLoginParser.m */,
+				A26F46CB22EF3955C8632ECDDD127E04 /* MWGParserEngine.h */,
+				D62D5E1B344C8D5A5FF346FC7928DF1F /* MWGParserEngine.m */,
+				1C24BAD5751BBB5053F9D326919CADF8 /* MWGPromotionDetailParser.h */,
+				1489E888ED650CF9EDDB7B0654578DBE /* MWGPromotionDetailParser.m */,
+				0248F1B259FD547A12EBA4AFBA8CF3F4 /* MWGPromotionListParser.h */,
+				05E78F423D80537C00DFFCA9C39F2CBA /* MWGPromotionListParser.m */,
+				2C32CFBD5896051886D23E462B4DC564 /* MWGStoreParser.h */,
+				884CBD08178293A232C5118686AB4CC3 /* MWGStoreParser.m */,
+				F3D74ED5668D615256A7CDBE632975FF /* MWGUserParser.h */,
+				8055E4B746C4E72DF161C616B8B677E3 /* MWGUserParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		5ECC3E2B4832EC3450BE6D4947DE2BEC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81D6806D7A8BA2EB7D3C3095D6B9F99B /* MowingoSDK.h */,
+				84832E35C8D9BE34E4F65CB8F334F010 /* Private */,
+				4F5C9D6E27E0B22573970A7E819EA16B /* Public */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		646059D1977B2705289529495BD949C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48B5F16A66E6E624D99EDCC09C63A37B /* MWGBeaconCore.h */,
+				44AD21E09290EDC8106E29596D686E1E /* MWGBeaconCore.m */,
+				4763A3B81E896384312D67E5B1FA6FC4 /* MWGBeaconRegionCore.h */,
+				9BCA2388A62454BE6ED723BEE2B49F7A /* MWGBeaconRegionCore.m */,
+				5DEBEB52F053F111667D7D2CD44B25C7 /* MWGGeofence.h */,
+				970DE5057A1E3DEA44F75E808379CDF2 /* MWGGeofence.m */,
+				457D921803661CF0692BB93729657F03 /* MWGLocation.h */,
+				A421042C63C64E6E2C76BC0F979052CF /* MWGLocation.m */,
+				F481C4E319D6356BA8601C62149D162B /* MWGUser.h */,
+				E419F710152FDA0AC9217DB7043D578F /* MWGUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72E77A0354A0ED8CC6FDC31B0955D9AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E628EAEF8D2302A18F62E1353E90F /* Info.plist */,
+				E34FD68FD706C94C75BD65E211C470FB /* MowingoSDK.modulemap */,
+				1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */,
+				57028FE4A868EA77B915601EF6C85047 /* MowingoSDK-dummy.m */,
+				F1E6F416AF6843DFDD597F8C3EFA9800 /* MowingoSDK-prefix.pch */,
+				9E8941C3552C242F6F9A8AD5FF81F7B3 /* MowingoSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MowingoSDK";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				3150E60459C5564788C74991CED5D84E /* Development Pods */,
+				DEA6DB89C3D6AEB6766EE51AB2099018 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0E9E2E8FAFC4DBDFBBE70AF127782B33 /* Products */,
+				EAD5C65389E6C183B94A64EE7F065937 /* Products */,
 				488E7A51FD3DB7A00197932DBC810830 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +399,47 @@
 			);
 			name = "Pods-MowingoSDK_Example";
 			path = "Target Support Files/Pods-MowingoSDK_Example";
+			sourceTree = "<group>";
+		};
+		84832E35C8D9BE34E4F65CB8F334F010 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				134D1A30C6791C3248ECDF1CE0DFF55F /* Api */,
+				C760C13BE3F43C85F8EEB2BA1143A30D /* Connection_Engine */,
+				1599C3C51CE9AF9DFD46075B6120A4C7 /* Managers */,
+				646059D1977B2705289529495BD949C2 /* Models */,
+				588F8063403DBCE50629DEFDD2BC197E /* Parsers */,
+				A0E1CB5FFBB03393D74CB5F681236022 /* Utils */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		9358B0DEFCF1E248F723089DD36E0B5C /* MowingoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2772131382D3C88A1A324989FE059A38 /* Pod */,
+				72E77A0354A0ED8CC6FDC31B0955D9AE /* Support Files */,
+			);
+			name = MowingoSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A0E1CB5FFBB03393D74CB5F681236022 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B732A909B3026EEF6AEE50F83A282C92 /* GTMNSString+HTML.h */,
+				0622EA8048776E70290EAB91FC51A5B1 /* GTMNSString+HTML.m */,
+				4D2293770E8EC0E65BADE2782A04EB15 /* MWGConstants.h */,
+				A8986327C9E143EF384E1900C988AE97 /* MWGError.h */,
+				D2534FBEA613E279341111F559FC19E9 /* MWGError.m */,
+				1D3CF2C801AFCA0FF0D18773059ECDC9 /* MWGLog.h */,
+				E2D0997563F77916DD4159CCA98E27B7 /* MWGLog.m */,
+				F69E28CAFA9CA3F9FD7E5BEA327D831E /* MWGUtil.h */,
+				8CB25B6E296938932E356297922B6D99 /* MWGUtil.m */,
+				6CB14C49D5A88D12CCB6F765AA1F1FDC /* NSString+HTML.h */,
+				CA45BEF9F3A6F2FE2B497388E66CF55D /* NSString+HTML.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		ACEFE1C2A7B08FE55ACC0F5BC7698EF3 /* Pods-MowingoSDK_Tests */ = {
@@ -185,71 +476,166 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C760C13BE3F43C85F8EEB2BA1143A30D /* Connection_Engine */ = {
+			isa = PBXGroup;
+			children = (
+				79F1690D1E4A44776E2DDF6B61A765B2 /* MWGUrlConnection.h */,
+				5FC916124AB38A695CE9F998153911B3 /* MWGUrlConnection.m */,
+				3F00746DEF0EF39846A1B8AC72CC4426 /* MWGXMLCacheLoader.h */,
+				2AA6128ADD137C358C3465AF6946CA9A /* MWGXMLCacheLoader.m */,
+				1E0438B46BEECC4F37412030E60EA5AC /* MWGXMLDataCache.h */,
+				3C1194A660AF3085BBBAF36BD13FC7DB /* MWGXMLDataCache.m */,
+			);
+			path = Connection_Engine;
+			sourceTree = "<group>";
+		};
+		CC2EA487F88216A248ED12D57AA8C39A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				510512000EA01142B6D615142FF6E89D /* MWGBeaconRegion.h */,
+				49ACCD72B5398776CB2E9DCED50DD0AA /* MWGBeaconRegion.m */,
+				0D4C091CF608632E72712D72F10B5BF2 /* MWGParam.h */,
+				6EAC33E59B1E97330A9273DFB8D9F223 /* MWGParam.m */,
+				CA4436BE5CFE24DC481F0EC3C8C6DB68 /* MWGPromotion.h */,
+				068CA39270A4E1A22BC9F264A3D611FA /* MWGPromotion.m */,
+				A6095257C36BF075FFAEEE24ABDC8D74 /* MWGStore.h */,
+				AFCEDA71416984CE8953C94EB24B7D79 /* MWGStore.m */,
+				ADD7C85BBF24C8C2F2948B2057160466 /* MWGUserData.h */,
+				3EEEA90BCA231C54CF0B4988A3D4058E /* MWGUserData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEA6DB89C3D6AEB6766EE51AB2099018 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9358B0DEFCF1E248F723089DD36E0B5C /* MowingoSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EAD5C65389E6C183B94A64EE7F065937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */,
+				DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */,
+				3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */,
+				F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17698998CB11806B10DDAB5CA39D321E /* Headers */ = {
+		9A6FA46E54B2E2058A07183E999C98CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B097AFA616CD796EF5F3882926E4FED /* Pods-MowingoSDK_Example-umbrella.h in Headers */,
+				BA4FB6169B39750C0A1FD27662EE8C90 /* GTMNSString+HTML.h in Headers */,
+				079A8CDD1BB320D5B35664A471470A23 /* MowingoSDK-umbrella.h in Headers */,
+				F5AF593FB5B2252111A3D28CDD608791 /* MowingoSDK.h in Headers */,
+				B1376FE044CA0C657846594F567804A4 /* MWGAPI.h in Headers */,
+				8296569CA665D745A8A845DD1178B9A2 /* MWGAttributes.h in Headers */,
+				17370CA7BD3E2C30C7894DE3614FD5AA /* MWGBeaconCore.h in Headers */,
+				F72EB3D089F37AE824621A48AF08F8B8 /* MWGBeaconRegion.h in Headers */,
+				78971FABF669BF2B431FC3FC85056497 /* MWGBeaconRegionCore.h in Headers */,
+				2727AA995F01FEF374203C44B07152A4 /* MWGBeaconsParser.h in Headers */,
+				58E14A7D6540FB31DE1E412D448132C8 /* MWGConstants.h in Headers */,
+				85DC1F02A2A60F5A49678D0B85B27353 /* MWGError.h in Headers */,
+				1138B78346C0FC0C11BA327F42FCCBB9 /* MWGGeofence.h in Headers */,
+				6D15E4E76DD770E8558187DB510067D6 /* MWGGeofenceParser.h in Headers */,
+				B9F5C32A0F0CF2B5BBA5EAB2367527D1 /* MWGGeofenceRegionParser.h in Headers */,
+				CC2A474334E7A2047066ED9A48554F74 /* MWGGetUserdataParser.h in Headers */,
+				F4D10227CD6C26E1723D2FEFA1060040 /* MWGLocation.h in Headers */,
+				85A6485656AD71C04888C352D356EC41 /* MWGLocationParser.h in Headers */,
+				6529BB8B4A4DA750CF85ADCAA98DDD95 /* MWGLocationServiceManager.h in Headers */,
+				EB321042F7D195CD6FD45F7E1124BA7B /* MWGLog.h in Headers */,
+				81118EB3ECB1D76478F9F81E9AD09DA8 /* MWGLoginParser.h in Headers */,
+				88C0B750BD78C86C69A13DAB18255900 /* MWGParam.h in Headers */,
+				58C64D637D526B453F6FCB6CB94431E6 /* MWGParserEngine.h in Headers */,
+				105CA56DA64DEEFE7EEF38BB80A169EC /* MWGPromotion.h in Headers */,
+				F0FDBE24264F9706130380646EF301F0 /* MWGPromotionDetailParser.h in Headers */,
+				AEDDF6C328D273A4BF94A39AC18C87B3 /* MWGPromotionListParser.h in Headers */,
+				4E2DA9FD5D55E8CF2C868C4910902B05 /* MWGSDKManager.h in Headers */,
+				1DE330A6B6A4856504C43F0B8D4C1B49 /* MWGSDKManagerDelegate.h in Headers */,
+				7C2BF1B194F5D18681A757F88E8FC0DA /* MWGSDKMangerCore.h in Headers */,
+				A68D57190E4758E9C31BDB9227D6F660 /* MWGStore.h in Headers */,
+				A03C6C335BD38C996B6195A6DE1BC40F /* MWGStoreParser.h in Headers */,
+				FA7CBC06ECFCE72FBD034F4AECF5AABA /* MWGUrlConnection.h in Headers */,
+				031E77EDE7BBD097B5CFCC0452512312 /* MWGUser.h in Headers */,
+				75202361926D260E2FED37FB11736CEB /* MWGUserData.h in Headers */,
+				838810CD81FB27FFA06C56B20761353D /* MWGUserParser.h in Headers */,
+				F2313A7E47DE970E35C0D5BF61B54E43 /* MWGUtil.h in Headers */,
+				FE677EFF1054D74EBBEFFDE0DE5CB0CB /* MWGXMLCacheLoader.h in Headers */,
+				80340D3CD507D209CA0107BDE2701F98 /* MWGXMLDataCache.h in Headers */,
+				3DA3F081E34FBC3D04EDBF337B293678 /* NSString+HTML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DC3FDE7CE9996D8FFE06DF50F5202BC /* Headers */ = {
+		A18BF9946452B68F6712F8F7959D79D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C989EBA85C9FA26796D3123640C1012 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */,
+				B09E5A9E5CDBB9928A767A7DBA91EA63 /* Pods-MowingoSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ED58B6CE724BF76DB04F47CF3D64CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435822B0FE83763BE765B2E04392F42C /* Pods-MowingoSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ACD38664073DE1D994DEB8F7D02DAB37 /* Pods-MowingoSDK_Tests */ = {
+		16F1DCCF4ADC781DB618853B36C29632 /* MowingoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B824456A3316463D43E86B210D134AD9 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */;
+			buildConfigurationList = 46135E0F73A97EEBD5ED9A50CF189205 /* Build configuration list for PBXNativeTarget "MowingoSDK" */;
 			buildPhases = (
-				94BF7574120F20943E7AF30E538407F9 /* Sources */,
-				AFBED767F2E020513CD64C452F7B17E4 /* Frameworks */,
-				6DC3FDE7CE9996D8FFE06DF50F5202BC /* Headers */,
+				09D256105C4504F6DD523F0D3309C805 /* Sources */,
+				CC753E1FC13D4C1F538C237F9A48B57B /* Frameworks */,
+				E4357C87930E3A6FBF10173C5211956B /* Resources */,
+				9A6FA46E54B2E2058A07183E999C98CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79C99F11D5E17026AA279838AB252121 /* PBXTargetDependency */,
+				E2AE6443CBD0705F47C55CAA6E7CA109 /* PBXTargetDependency */,
 			);
-			name = "Pods-MowingoSDK_Tests";
-			productName = "Pods-MowingoSDK_Tests";
-			productReference = 13627E7A4DD1C430DBB7B6A57F3C6981 /* Pods_MowingoSDK_Tests.framework */;
+			name = MowingoSDK;
+			productName = MowingoSDK;
+			productReference = DA8B581A7187168B931CBDF298553FAA /* MowingoSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF1BEB54665CE684C78293C44DAF5650 /* Pods-MowingoSDK_Example */ = {
+		1B65A53C4FE2EDD979B1A7AC23E72E31 /* Pods-MowingoSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8FD4F5D5D1A6F68265882CAAF13622D /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */;
+			buildConfigurationList = 936BD285241BECDC60E70575B96FC318 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */;
 			buildPhases = (
-				63041AE3D625C3000FE1EB7D281849EA /* Sources */,
-				A0C202EC0BB28F6E6B96654C62F91D31 /* Frameworks */,
-				17698998CB11806B10DDAB5CA39D321E /* Headers */,
+				CE000F9001FAAAF650C412206C3138A4 /* Sources */,
+				2F96CA7AD0D281DDF4C7D28E82F3BC8E /* Frameworks */,
+				F1ED58B6CE724BF76DB04F47CF3D64CF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				82FA537604E5E873647ED547B6BD2A71 /* PBXTargetDependency */,
+				F3928389A57D4D868271610235CFD2E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-MowingoSDK_Example";
 			productName = "Pods-MowingoSDK_Example";
-			productReference = 217CE86E6096D840E25C51D1483AB176 /* Pods_MowingoSDK_Example.framework */;
+			productReference = 3DC6A06B190249378AE10584E0E521B8 /* Pods_MowingoSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D33C326CDCEC6183DBBBE134B4AFED9D /* MowingoSDK-MowingoSDK */ = {
+		241E6684FE6541527E84C326586B85EB /* MowingoSDK-MowingoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50836BF8E5AA498AB59C4C7238FE9E93 /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */;
+			buildConfigurationList = 7BD3DB7B452A4BD7CAE1C470FA3F3BEA /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */;
 			buildPhases = (
-				ED71CC36BB0359254956045EB27ADA77 /* Sources */,
-				D1A70F14DCCFC601388929D70A6728E6 /* Frameworks */,
-				1FE3B1DD594B760F5BFC508818066394 /* Resources */,
+				26D6F52256087B3A94F29ECE59FA3A14 /* Sources */,
+				7083E6FBC7A5BB2AF3207FA95664EBBF /* Frameworks */,
+				A3D7FBDA3183654D45C3EE10D3462B72 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -257,8 +643,26 @@
 			);
 			name = "MowingoSDK-MowingoSDK";
 			productName = "MowingoSDK-MowingoSDK";
-			productReference = B0CF4D6E622E22816E2956FE129CABAF /* MowingoSDK.bundle */;
+			productReference = ED0E27AF0C0EA090ABA35C3FF6471B28 /* MowingoSDK.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		EA38A031F89D078BA50D6928C1DEEB4C /* Pods-MowingoSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DEF53E105D3D82BA9C0028A078A2F3 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */;
+			buildPhases = (
+				724176FCE72B3FBA57D0355BC5BF68DF /* Sources */,
+				B0450D2568EF42654327F7E654E43824 /* Frameworks */,
+				A18BF9946452B68F6712F8F7959D79D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FB4CDF8F1B33652E40440A8876141BD /* PBXTargetDependency */,
+			);
+			name = "Pods-MowingoSDK_Tests";
+			productName = "Pods-MowingoSDK_Tests";
+			productReference = F2F5A7C5077CF3A8EF9BD8AE9C59BBB3 /* Pods_MowingoSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -277,65 +681,121 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0E9E2E8FAFC4DBDFBBE70AF127782B33 /* Products */;
+			productRefGroup = EAD5C65389E6C183B94A64EE7F065937 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D33C326CDCEC6183DBBBE134B4AFED9D /* MowingoSDK-MowingoSDK */,
-				BF1BEB54665CE684C78293C44DAF5650 /* Pods-MowingoSDK_Example */,
-				ACD38664073DE1D994DEB8F7D02DAB37 /* Pods-MowingoSDK_Tests */,
+				16F1DCCF4ADC781DB618853B36C29632 /* MowingoSDK */,
+				241E6684FE6541527E84C326586B85EB /* MowingoSDK-MowingoSDK */,
+				1B65A53C4FE2EDD979B1A7AC23E72E31 /* Pods-MowingoSDK_Example */,
+				EA38A031F89D078BA50D6928C1DEEB4C /* Pods-MowingoSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FE3B1DD594B760F5BFC508818066394 /* Resources */ = {
+		A3D7FBDA3183654D45C3EE10D3462B72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4357C87930E3A6FBF10173C5211956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B0FEE19CCC61B4D189F1B06E99A958 /* MowingoSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63041AE3D625C3000FE1EB7D281849EA /* Sources */ = {
+		09D256105C4504F6DD523F0D3309C805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE43186CA1DE19347D5D32A036AF381 /* Pods-MowingoSDK_Example-dummy.m in Sources */,
+				D5D460E7F71A76059644428A13D5A713 /* GTMNSString+HTML.m in Sources */,
+				C6123780BCD52D0074EDFB0680ADF78D /* MowingoSDK-dummy.m in Sources */,
+				6C20CEF2E4BE15DEFCCA69DBEAEB7431 /* MWGAPI.m in Sources */,
+				7E7FCA39BE18E43339A1C162882BEE50 /* MWGBeaconCore.m in Sources */,
+				88BA7B270044950220FF93B07DD077F4 /* MWGBeaconRegion.m in Sources */,
+				3AE6146ED0B894FB8D87DC0AA50E0662 /* MWGBeaconRegionCore.m in Sources */,
+				03A231FF5AE2769E66A228D0EF8D9989 /* MWGBeaconsParser.m in Sources */,
+				40432001031C361B2AE96B583F7598D3 /* MWGError.m in Sources */,
+				A3D2684F51001F36B2F4B705BED2E0A9 /* MWGGeofence.m in Sources */,
+				728492BF7FECC3FED5FAFEE6B8AE0F1B /* MWGGeofenceParser.m in Sources */,
+				C0CE7C85BC6394C41173C3A525DD9814 /* MWGGeofenceRegionParser.m in Sources */,
+				1F76FA13DB60734FB5A7D319624535F4 /* MWGGetUserdataParser.m in Sources */,
+				AE6B440E446210D2B985D6AE5934A964 /* MWGLocation.m in Sources */,
+				0DABD64562F533EA6E4FD862465BF04F /* MWGLocationParser.m in Sources */,
+				77B4B68C72C516B90EAA2922D7907A1B /* MWGLocationServiceManager.m in Sources */,
+				322BC3151776BBB6541780668A87B0D6 /* MWGLog.m in Sources */,
+				80DC97AFA201B6B5B362FDE9DF4FF97E /* MWGLoginParser.m in Sources */,
+				BB5E903CD318C91F0A181A90939C1C08 /* MWGParam.m in Sources */,
+				D236F8C313B91E860D3AF7C296807D2A /* MWGParserEngine.m in Sources */,
+				8BD5EB1379B3A8F9C38649473B55BA47 /* MWGPromotion.m in Sources */,
+				0BED6F18E49099EDC87982E182BE43F1 /* MWGPromotionDetailParser.m in Sources */,
+				189EBA094DD29F40B1FC2667A430BF37 /* MWGPromotionListParser.m in Sources */,
+				AF989DD46929B8462CF469AA39751144 /* MWGSDKManager.m in Sources */,
+				C858C4A096124598725339F3BE47EEE8 /* MWGSDKMangerCore.m in Sources */,
+				FCEBD5D6969CDEA83A73FD1E7E397410 /* MWGStore.m in Sources */,
+				6722E7E8668B14719E49A477A30B8F30 /* MWGStoreParser.m in Sources */,
+				32192EA6BABDDBE9403605604F840E7B /* MWGUrlConnection.m in Sources */,
+				4C7E0766669DF7364DF90276C91911B4 /* MWGUser.m in Sources */,
+				21C3543DD8F372497EF0088DFC8B1690 /* MWGUserData.m in Sources */,
+				339724076DF2F7C14A49E8930C6537DD /* MWGUserParser.m in Sources */,
+				BD8EB5BF0F4693F109EEFCCC87F150CE /* MWGUtil.m in Sources */,
+				54393246E6AED6F9025CE6819F2AC9D4 /* MWGXMLCacheLoader.m in Sources */,
+				4DB1FCCE2C6BA0A98A9CDD07D5FC216F /* MWGXMLDataCache.m in Sources */,
+				878BDDE765BA4EF95109B571949378B7 /* NSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94BF7574120F20943E7AF30E538407F9 /* Sources */ = {
+		26D6F52256087B3A94F29ECE59FA3A14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C2B1C775365D4FA8E06099E414AA71 /* Pods-MowingoSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED71CC36BB0359254956045EB27ADA77 /* Sources */ = {
+		724176FCE72B3FBA57D0355BC5BF68DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977C1E718738E048DEC5D12E09C4779C /* Pods-MowingoSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE000F9001FAAAF650C412206C3138A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EFAEF9916E5145ED300F96186A662 /* Pods-MowingoSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79C99F11D5E17026AA279838AB252121 /* PBXTargetDependency */ = {
+		0FB4CDF8F1B33652E40440A8876141BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "MowingoSDK-MowingoSDK";
-			target = D33C326CDCEC6183DBBBE134B4AFED9D /* MowingoSDK-MowingoSDK */;
-			targetProxy = F41F866B234351C7945E7D285D0D4DAB /* PBXContainerItemProxy */;
+			name = MowingoSDK;
+			target = 16F1DCCF4ADC781DB618853B36C29632 /* MowingoSDK */;
+			targetProxy = 81FF40AF259B62E3224FB22AA001E3C9 /* PBXContainerItemProxy */;
 		};
-		82FA537604E5E873647ED547B6BD2A71 /* PBXTargetDependency */ = {
+		E2AE6443CBD0705F47C55CAA6E7CA109 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MowingoSDK-MowingoSDK";
-			target = D33C326CDCEC6183DBBBE134B4AFED9D /* MowingoSDK-MowingoSDK */;
-			targetProxy = 271A644C79061885014AE05D698C4F6A /* PBXContainerItemProxy */;
+			target = 241E6684FE6541527E84C326586B85EB /* MowingoSDK-MowingoSDK */;
+			targetProxy = 16BDED569930A31CDD958119C60D9538 /* PBXContainerItemProxy */;
+		};
+		F3928389A57D4D868271610235CFD2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MowingoSDK;
+			target = 16F1DCCF4ADC781DB618853B36C29632 /* MowingoSDK */;
+			targetProxy = B34B053A9C3A571435AF3968E02591BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,49 +873,9 @@
 			};
 			name = Debug;
 		};
-		0FDF840D7A8B5F23B49CB62923D6FE83 /* Debug */ = {
+		41B9FC550DA4B93D3937A83B8FD1E98F /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MowingoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		137F0FD9AEB11C53045CE94D1A6CABE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MowingoSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		319B8BD8AEC65FA40E9B62BA0EBEACF5 /* Release */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = MowingoSDK;
@@ -465,7 +885,7 @@
 			};
 			name = Release;
 		};
-		5EC06E8874C78932472BA49BAD22DB18 /* Debug */ = {
+		7750A4C7E6E2B81D661D07D40BDDCCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BBF681239811B2E2E4FFE39B824A8AB /* Pods-MowingoSDK_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -495,37 +915,7 @@
 			};
 			name = Debug;
 		};
-		A332456283AA46711F13A4A76695E5FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Pods-MowingoSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MowingoSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB04CDEC5E371133A277FD01A32F7355 /* Release */ = {
+		7C22BCF7690B574AC014D7B921F5930E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */;
 			buildSettings = {
@@ -555,6 +945,132 @@
 			};
 			name = Release;
 		};
+		BC4431E8FA5BEBE9FEDF6B41C0AC43A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B61AF5F81DFE4C82D374D2E10BB56D /* Pods-MowingoSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Tests/Pods-MowingoSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCCB8BC38EEF278E2915DAD8658024BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C6E10F88CF24B82DC4ED55A512C87ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MowingoSDK/MowingoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MowingoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F969F7AAFE3605195A51FFB461727BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MowingoSDK/MowingoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MowingoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MowingoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,29 +1083,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50836BF8E5AA498AB59C4C7238FE9E93 /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */ = {
+		46135E0F73A97EEBD5ED9A50CF189205 /* Build configuration list for PBXNativeTarget "MowingoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FDF840D7A8B5F23B49CB62923D6FE83 /* Debug */,
-				319B8BD8AEC65FA40E9B62BA0EBEACF5 /* Release */,
+				F969F7AAFE3605195A51FFB461727BFC /* Debug */,
+				C6E10F88CF24B82DC4ED55A512C87ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B824456A3316463D43E86B210D134AD9 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */ = {
+		52DEF53E105D3D82BA9C0028A078A2F3 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EC06E8874C78932472BA49BAD22DB18 /* Debug */,
-				A332456283AA46711F13A4A76695E5FC /* Release */,
+				7750A4C7E6E2B81D661D07D40BDDCCB1 /* Debug */,
+				BC4431E8FA5BEBE9FEDF6B41C0AC43A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8FD4F5D5D1A6F68265882CAAF13622D /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */ = {
+		7BD3DB7B452A4BD7CAE1C470FA3F3BEA /* Build configuration list for PBXNativeTarget "MowingoSDK-MowingoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137F0FD9AEB11C53045CE94D1A6CABE6 /* Debug */,
-				AB04CDEC5E371133A277FD01A32F7355 /* Release */,
+				BCCB8BC38EEF278E2915DAD8658024BD /* Debug */,
+				41B9FC550DA4B93D3937A83B8FD1E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936BD285241BECDC60E70575B96FC318 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */,
+				7C22BCF7690B574AC014D7B921F5930E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Private/Parsers/MWGLocationParser.h

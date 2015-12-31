@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Private/Api/MWGAPI.h

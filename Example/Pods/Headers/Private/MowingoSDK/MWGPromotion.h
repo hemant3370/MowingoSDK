@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Public/Model/MWGPromotion.h
