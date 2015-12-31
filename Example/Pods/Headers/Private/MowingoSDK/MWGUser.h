@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/Private/Models/MWGUser.h

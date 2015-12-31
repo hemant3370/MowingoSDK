@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/Private/Parsers/MWGGeofenceParser.h
