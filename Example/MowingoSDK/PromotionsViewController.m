@@ -13,7 +13,7 @@
 #import "PromotionTableViewCell.h"
 #import "UIImageView+WebCache.h"
 #import "PromotionDetailViewController.h"
-
+#import <MowingoSDK/MowingoSDK.h>
 @interface PromotionsViewController ()
 
 @end

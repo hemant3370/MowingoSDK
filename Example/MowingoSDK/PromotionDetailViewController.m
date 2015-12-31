@@ -11,7 +11,7 @@
 
 #import "PromotionDetailViewController.h"
 #import "UIImageView+WebCache.h"
-
+#import <MowingoSDK/MowingoSDK.h>
 @interface PromotionDetailViewController ()
 
 @end

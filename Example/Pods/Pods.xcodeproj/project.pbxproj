@@ -664,10 +664,11 @@
 			};
 			name = Debug;
 		};
-		6C963D193A8178A760F5132677BD6C65 /* Release */ = {
+		6785E8E889F6F030ECE36F31792D0D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -681,7 +682,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = MowingoSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -689,7 +690,38 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		73D4699D4DD320D2FBD7109651C6F284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MowingoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7750A4C7E6E2B81D661D07D40BDDCCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -721,10 +753,11 @@
 			};
 			name = Debug;
 		};
-		7C22BCF7690B574AC014D7B921F5930E /* Release */ = {
+		92369018F6B11783C53A1A03FC3068DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9ECF35D31B3F4675C14F6DE12AFDD25 /* Pods-MowingoSDK_Example.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -781,40 +814,11 @@
 			};
 			name = Release;
 		};
-		DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094023C534059469A5EDB51B5799EA0 /* Pods-MowingoSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MowingoSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MowingoSDK_Example/Pods-MowingoSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MowingoSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DF05C61E499BB0AE9B4B970CA2256FBB /* Debug */ = {
+		DD1619C527FD3CB9C88BFB01D6579116 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C441B8561DDEB4B5072298F80BB23AC /* MowingoSDK.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -828,7 +832,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MowingoSDK/MowingoSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = MowingoSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -836,7 +840,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -862,8 +866,8 @@
 		936BD285241BECDC60E70575B96FC318 /* Build configuration list for PBXNativeTarget "Pods-MowingoSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE58EDF9F9FFE03F745FAFFD1389ACCD /* Debug */,
-				7C22BCF7690B574AC014D7B921F5930E /* Release */,
+				73D4699D4DD320D2FBD7109651C6F284 /* Debug */,
+				92369018F6B11783C53A1A03FC3068DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -871,8 +875,8 @@
 		97DD5178D989F243744D5459BE689C2D /* Build configuration list for PBXNativeTarget "MowingoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF05C61E499BB0AE9B4B970CA2256FBB /* Debug */,
-				6C963D193A8178A760F5132677BD6C65 /* Release */,
+				6785E8E889F6F030ECE36F31792D0D71 /* Debug */,
+				DD1619C527FD3CB9C88BFB01D6579116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
