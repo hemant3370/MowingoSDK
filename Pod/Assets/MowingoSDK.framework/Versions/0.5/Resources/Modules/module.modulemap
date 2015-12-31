@@ -1,5 +1,5 @@
 framework module MowingoSDK {
-  umbrella header "MowingoSDK-umbrella.h"
+  umbrella header "MowingoSDK.h"
 
   export *
   module * { export * }

@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
+#import "MowingoSDK/MowingoSDK.h"
 @interface MWGViewController : UIViewController
 
 @end

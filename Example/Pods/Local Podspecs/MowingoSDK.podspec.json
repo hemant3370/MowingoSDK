@@ -1,15 +1,15 @@
 {
   "name": "MowingoSDK",
   "version": "0.1.0",
-  "summary": "A short description of MowingoSDK.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MowingoSDK",
+  "summary": "SDK Pod for Mowingo",
+  "description": "This CocoaPod provides the dependencies to use Mowingo SDK",
+  "homepage": "https://github.com/hemant3370/MowingoSDK",
   "license": "MIT",
   "authors": {
     "Hemant Singh": "hemant.singh@bellurbis.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MowingoSDK.git",
+    "git": "https://github.com/hemant3370/MowingoSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
